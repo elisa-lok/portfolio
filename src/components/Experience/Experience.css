@@ -1,0 +1,50 @@
+.experience-section {
+  background-color: #f9fafc;
+}
+
+.experience-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  position: relative;
+  display: inline-block;
+}
+
+.experience-title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 4px;
+  background-color: #007bff;
+  margin: 10px auto 0;
+}
+
+.experience-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.experience-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.experience-position {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.experience-company {
+  font-weight: 600;
+  color: #666;
+}
+
+.experience-detail {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.experience-detail .icon {
+  margin-right: 8px;
+  color: #007bff;
+  font-size: 1.1rem;
+}
