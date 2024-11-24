@@ -22,7 +22,7 @@ const Projects = () => {
         "A personal portfolio showcasing my skills, experience, and projects.",
       techStack: ["ReactJS", "Bootstrap"],
       codeLink: "https://github.com/elisa-lok/portfolio",
-      liveLink: "",
+      liveLink: "https://portfolio-one-beryl-78.vercel.app/",
       icon: "fas fa-briefcase",
     },
     {
